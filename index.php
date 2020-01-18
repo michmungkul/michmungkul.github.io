@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>mongkul</title>
+	<title></title>
 </head>
 <body>
-<div>
-	<h1>Hello World!</h1>
-</div>
+	<?php
+		echo "Hello World!";
+	?>
 </body>
 </html>
