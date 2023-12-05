@@ -6,6 +6,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <div class="banner-img"></div>
@@ -13,7 +14,7 @@
         <img class="profile-img" src="myprofile.jpg" alt="">
         <div class="name">
             <h1 class="mb-0 pt-2">MICH Mungkul</h1>
-            <p class="mb-0">Web Developer</p>
+            <p class="mb-0">Lead Web Developer</p>
         </div>
         <div class="row" style="margin-bottom: 35px;">
             <div id="leftWrapper" class="col-lg-4">
@@ -44,139 +45,47 @@
                 </ul>
             </div>
             <div id="rightWrapper" class="col-lg-8">
-                <h3 class="row cv-header">EDUCATION</h3>
+                <h3 class="cv-header">EDUCATION</h3>
                 <ul class="skill-list">
                     <li>2014 ~ 2019 : Grauated information technology engineering at ITC</li>
                     <li>2011 ~ 2014 : Studied at Balang High School</li>
                     <li>2009 ~ 2011 : Studied at Steung Sen High School</li>
                     <li>2002 ~ 2009 : Studied at Bosveng Primary School</li>
                 </ul>
-                <h3 class="row cv-header">EXPERIENCES</h3>
+                <h3 class="cv-header">EXPERIENCES</h3>
                 <ul class="skill-list">
-                    <li>2019 ~ 2024 : Web Developer at ZTOA Co., LTD.</li>
-                    <li>2018 ~ 2019 : Internship for 3 months at ITC by using laravel framework (Website).</li>
+                    <li>2022 ~ 2023 : Lead Web Developer at ZTOA Co., LTD.</li>
+                    <li>2020 ~ 2022 : Senior Web Developer at ZTOA Co., LTD.</li>
+                    <li>2019 ~ 2020 : Web Developer at ZTOA Co., LTD.</li>
+                    <li>2018 ~ 2019 : Internship for 3 months at ITC by using laravel framework.</li>
                 </ul>
-                <h3 class="row cv-header">Skills</h3>
+                <h3 class="cv-header">Skills</h3>
                 <ul class="skill-list">
-                    <li>Basic skill: HTML, CSS, Javascript and Boostrapt</li>
-                    <li>Operation: Unbuntu, Window, Mac os</li>
-                    <li>Git code control version</li>
+                    <li>Operation: Unbuntu, Window, Mac</li>
+                    <li>Git: code control version</li>
                     <li>CMS Framework: Wordpress, Joomla, Opencart</li>
                     <li>Laravel Framerwork</li>
                     <li>Database: MySQL, PostgreSQL</li>
                     <li>ReactJS (Basic)</li>
-                    <li>Deployment: Using ubuntu server </li>
-                    <li>Software: Sublime Text, Visual Studio Code, Microsoft Office, Adobe photoshop, Adobe illustrator</li>
+                    <li>Deployment: Ubuntu server </li>
+                    <li>Software: Sublime Text, Visual Studio Code...</li>
+                    <li>Basic skill: HTML, CSS, Javascript and Boostrapt</li>
                 </ul>
-                <h3 class="row cv-header">INTERESTS</h3>
+                <h3 class="cv-header">INTERESTS</h3>
                 <ul class="skill-list">
+                    <li>Reading and Critical thinking</li>
                     <li>Photo and Video shooting</li>
-                    <li>Adventure</li>
-                    <li>Agriculture (Farming)</li>
-                    <li>Single Sport: Swimming, Dancing, Motorcycling</li>
+                    <!-- <li>Adventure</li> -->
+                    <!-- <li>Agriculture (Farming)</li> -->
+                    <!-- <li>Single Sport: Swimming, Dancing, Motorcycling</li> -->
                 </ul>
-                <h3 class="row cv-header">References</h3>
+                <h3 class="cv-header">References</h3>
                 <ul class="skill-list">
-                    <li>2019 ~ 2024 : Web Developer at ZTOA Co., LTD.</li>
+                    <li>Name: Kenny Tang <br>Phone: +852 662 676 52 <br> Position: CEO at ZTOA Co., LTD.</li>
+                    <li>Name: Doungdara Keut <br>Phone: +855 15 822 555 <br> Position: CTO at ZTOA Co., LTD.</li>
                 </ul>
             </div>
         </div>
     </div>
-    <style>
-        :root {
-            --main-bg-color: #0abdfd;
-            --secondary-color: #343a40;
-        }
-        .name{
-            height: 75px;
-            padding-left: 180px;
-            padding-right: 0px;
-            border: 1px solid var(--main-bg-color);
-            margin: 10px 0px;
-            border-radius: 5px;
-            margin-bottom: 24px;
-        }
-        .name h1{
-            font-size: 28px;
-            font-weight: bold;
-            color: var(--main-bg-color);
-        }
-        .inter-word{
-            text-align: justify;
-            text-justify: inter-word;
-        }
-        .banner-img{
-            width: 100%; 
-            height: 35vh;
-            box-shadow: 0px 4px 45px 0px var(--main-bg-color) inset;
-            background-image: url('pngtree-simple-white-background-picture-image_288240.jpg');
-            background-position: center;
-            /* background-repeat: no-repeat, repeat; */
-            object-fit: cover;
-            background-color: var(--secondary-color)
-        }
-        .profile-img{
-            width: 150px; 
-            height: 150px;
-            position: absolute;
-            top: -75px;
-            border-radius: 8px;
-        }
-        .cv-header{
-            font-size: 18px;
-            color: var(--secondary-color);
-            background-color: var(--main-bg-color);
-            padding: 10px;
-            margin-left: -12px;
-            padding-bottom: 8px;
-            text-transform: uppercase;
-            /* color: var(--main-bg-color); */
-            /* border-bottom: 2px solid var(--main-bg-color); */
-            /* width: 50%; */
-        }
-        #leftWrapper{
-            /* border-right: 1.5px solid var(--main-bg-color); */
-        }
-        #rightWrapper{
-            border-left: 3px solid var(--main-bg-color);
-        }
-        
-        .cv-header-left{
-            font-size: 18px;
-            color: var(--main-bg-color);
-            display: block;
-            text-transform: uppercase;
-            border-bottom: 2px solid var(--main-bg-color);
-            padding-bottom: 8px;
-            width: 50%;
-        }
-        .skill-list{
-            margin-bottom: 0px;
-            padding-left: 16px;
-        }
-        .skill-list li{
-            margin-bottom: 8px;
-            /* list-style: none; */
-        }
-        .skill-list.left{
-            padding-left: 0px;
-            margin-bottom: 32px;
-        }
-        .skill-list.left li{
-            list-style: none;
-        }
-
-        @media (max-width: 600px) {
-            .name{
-                padding-left: 165px;
-            }
-            .name h1{
-                font-size: 18px;
-            }
-            .name p{
-                font-size: 14px;
-            }
-        }
-    </style>
 </body>
 </html>
